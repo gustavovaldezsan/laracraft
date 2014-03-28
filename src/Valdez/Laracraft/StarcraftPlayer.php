@@ -1,7 +1,5 @@
 <?php namespace Valdez\Laracraft;
 
-use Guzzle\Service\Client;
-
 class StarcraftPlayer extends StarcraftObject {
 
 	protected $id;
@@ -17,7 +15,6 @@ class StarcraftPlayer extends StarcraftObject {
 
 	public function populate()
 	{
-
 	}
 
 }

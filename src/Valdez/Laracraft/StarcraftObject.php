@@ -1,7 +1,5 @@
 <?php namespace Valdez\Laracraft;
 
-use Guzzle\Service\Client;
-
 abstract class StarcraftObject {
 
 	protected $client;
