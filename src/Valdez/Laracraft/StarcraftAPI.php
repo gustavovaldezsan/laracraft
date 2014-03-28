@@ -22,7 +22,12 @@ class StarcraftAPI {
 
 	public function getPlayer($id, $characterRealm, $characterName)
 	{
+		$player = new StarcraftPlayer($id, $characterName, $characterName);
 
+		$player->setupApi($this->client, $this->locale);
+		$player->populate();
+
+		return $player;
 	}
 
 }

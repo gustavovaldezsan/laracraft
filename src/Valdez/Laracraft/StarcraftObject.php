@@ -2,10 +2,12 @@
 
 use Guzzle\Service\Client;
 
-class StarcraftObject {
+abstract class StarcraftObject {
 
 	protected $client;
 	protected $locale;
+
+	public abstract function populate();
 
 	public function setupApi($client, $locale)
 	{
