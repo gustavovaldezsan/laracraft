@@ -1,0 +1,20 @@
+{
+    "name": "valdez/laracraft",
+    "description": "A PHP 5.3+ Wrapper for the Starcraft 2 Restful API",
+    "authors": [
+        {
+            "name": "Gustavo Valdez",
+            "email": "contacto@gustavovaldezsan.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Valdez\\Laracraft": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
